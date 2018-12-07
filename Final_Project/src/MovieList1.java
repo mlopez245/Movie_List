@@ -78,9 +78,7 @@ class Movie { //model class
         setDirector(director);
         setLength(length);
     }
-    public Movie(int parseInt, int parseInt2) {
-		// TODO Auto-generated constructor stub
-	}
+    
 	public String toString() { //to string
         return ("Movie Name: "+name+" ("+year+") \nDirector: "+director+" \nLength: "+length+" minutes"+"\n");
     }
